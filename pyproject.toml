@@ -1,0 +1,16 @@
+[project]
+name = "maresme-county-gloria"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "earthengine-api>=1.4.3",
+    "fastapi>=0.115.6",
+    "geopandas>=1.0.1",
+    "matplotlib>=3.9.3",
+    "numpy>=2.2.0",
+    "pandas>=2.2.3",
+    "rasterio>=1.4.3",
+    "uvicorn>=0.32.1",
+]
