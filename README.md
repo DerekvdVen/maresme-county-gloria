@@ -8,10 +8,7 @@ To get started, install uv for fast environment building:
 https://docs.astral.sh/uv/getting-started/installation/
 
 ### To see the results of the analysis:
-```
-uv run notebook.ipynb
-```
-
+Open analysis.ipynb in your favorite IDE
 ### To access results through the api:
 ```
 uv run uvicorn app.main:app
