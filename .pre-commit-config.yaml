@@ -1,0 +1,19 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: check-merge-conflict
+      - id: check-json
+      - id: check-yaml
+        args: ["--unsafe"]
+
+  - repo: https://github.com/charliermarsh/ruff-pre-commit
+    rev: v0.4.4
+    hooks:
+      # run the linter & isort
+      - id: ruff
+        args: ["--select", "I", "--fix"]
+        exclude: ".*pb2.py$"
+      # run black-style formatting
+      - id: ruff-format
+        exclude: ".*pb2.py$"
