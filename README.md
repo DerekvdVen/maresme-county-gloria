@@ -12,7 +12,7 @@ https://docs.astral.sh/uv/getting-started/installation/
 
 ### To see the results of the analysis:
 
-Open app/analysis.ipynb in your favorite IDE or checkout the presentation
+Open `analysis.ipynb` in your favorite IDE or checkout the presentation
 
 ### To access results through the api:
 
@@ -21,6 +21,14 @@ uv run uvicorn app.main:app
 ```
 
 Visit for the FastAPI interface: http://127.0.0.1:8000/docs
+
+### Tests
+
+To run the tests simply call:
+```commandline
+uv run pytest tests
+```
+Normally I wouldn't use the input data for the tests but here it is an exercise. 
 
 ### Downloading the data
 
@@ -33,11 +41,4 @@ In the data folder you will find:
   - Downloaded from https://data.humdata.org/dataset/worldpop-population-density-for-spain
 
 
-### Tests
-
-To run the tests simply call:
-```commandline
-uv run pytest tests
-```
-Normally I wouldn't use the input data for the tests but here it is an exercise. 
 
