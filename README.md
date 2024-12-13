@@ -32,7 +32,6 @@ To run the tests simply call:
 ```commandline
 uv run pytest tests
 ```
-Normally I wouldn't use the input data for the tests but here it is an exercise. 
 
 ### Downloading the data
 
