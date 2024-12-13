@@ -1,9 +1,12 @@
 # maresme-county-gloria
 
-Welcome to my repository for the technical interview at Earthpulse. Here I will show:
-
-- A flood analysis using radar data.
-- An API to retrieve the results from the analysis.
+Welcome to my repository for the technical exercise at Earthpulse. This repository contains a flood analysis using radar data and includes an API to retrieve the results of the analysis. Below are the key components of the project:
+- app/ - api and processing code
+- tests/ - unit tests
+- presentation/ - pwpt and pdf presentation of the process
+- data/ - data utilized in the project
+- get_data/ - scripts that were used to retrieve data
+- analysis.ipynb - notebook with visualisation
 
 ## Getting Started
 
@@ -12,15 +15,16 @@ https://docs.astral.sh/uv/getting-started/installation/
 
 ### To see the results of the analysis:
 
-Open `analysis.ipynb` in your favorite IDE or checkout the presentation
+Open `analysis.ipynb` in your favorite IDE or view a powerpoint presentation or pdf in presentation/
 
 ### To access results through the api:
 
 ```
 uv run uvicorn app.main:app
 ```
+Visit http://127.0.0.1:8000/docs for the FastAPI interface: 
 
-Visit for the FastAPI interface: http://127.0.0.1:8000/docs
+See the tests for an example on how to use the api.
 
 ### Tests
 
@@ -28,7 +32,6 @@ To run the tests simply call:
 ```commandline
 uv run pytest tests
 ```
-Normally I wouldn't use the input data for the tests but here it is an exercise. 
 
 ### Downloading the data
 
