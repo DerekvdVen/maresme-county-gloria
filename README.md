@@ -2,9 +2,9 @@
 
 Welcome to my repository for the technical interview at Earthpulse. The repository shows a flood analysis using radar data and uses an API to retrieve the results from the analysis. Some key things to check out:
 - app/ - The api and processing code
-- analysis.ipynb - notebook with visualisation
+- tests/ - unit tests for the app
 - presentation/ - pwpt and pdf presentation of the process
-- tests - unit tests of the processing code
+- analysis.ipynb - notebook with visualisation
 
 ## Getting Started
 
