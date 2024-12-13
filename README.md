@@ -1,9 +1,11 @@
 # maresme-county-gloria
 
-Welcome to my repository for a technical exercise at Earthpulse. The repository shows a flood analysis using radar data and uses an API to retrieve the results of the analysis. Some key things to check out:
+Welcome to my repository for the technical exercise at Earthpulse. This repository contains a flood analysis using radar data and includes an API to retrieve the results of the analysis. Below are the key components of the project:
 - app/ - The api and processing code
 - tests/ - unit tests for the app
 - presentation/ - pwpt and pdf presentation of the process
+- data/ - data utilized in the project
+- get_data/ - scripts that were used to retrieve data
 - analysis.ipynb - notebook with visualisation
 
 ## Getting Started
@@ -13,7 +15,7 @@ https://docs.astral.sh/uv/getting-started/installation/
 
 ### To see the results of the analysis:
 
-Open `analysis.ipynb` in your favorite IDE or checkout the presentation
+Open `analysis.ipynb` in your favorite IDE or view a powerpoint presentation or pdf in presentation/
 
 ### To access results through the api:
 
