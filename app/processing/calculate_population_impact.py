@@ -30,4 +30,4 @@ def calculate_population_impact(
         verbose=False,
     )
 
-    return stats[0]["sum"]
+    return round(stats[0]["sum"])

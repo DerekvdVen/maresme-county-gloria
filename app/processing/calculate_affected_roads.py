@@ -22,4 +22,4 @@ def calculate_road_impact_m(
     affected_roads["length"] = affected_roads.geometry.length
     total_affected_length_m = affected_roads["length"].sum()
 
-    return total_affected_length_m
+    return round(total_affected_length_m, 0)
