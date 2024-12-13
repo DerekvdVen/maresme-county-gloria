@@ -1,8 +1,8 @@
 # maresme-county-gloria
 
 Welcome to my repository for the technical exercise at Earthpulse. This repository contains a flood analysis using radar data and includes an API to retrieve the results of the analysis. Below are the key components of the project:
-- app/ - The api and processing code
-- tests/ - unit tests for the app
+- app/ - api and processing code
+- tests/ - unit tests
 - presentation/ - pwpt and pdf presentation of the process
 - data/ - data utilized in the project
 - get_data/ - scripts that were used to retrieve data
