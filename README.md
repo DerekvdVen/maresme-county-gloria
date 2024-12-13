@@ -12,7 +12,7 @@ https://docs.astral.sh/uv/getting-started/installation/
 
 ### To see the results of the analysis:
 
-Open app/analysis.ipynb in your favorite IDE
+Open app/analysis.ipynb in your favorite IDE or checkout the presentation
 
 ### To access results through the api:
 
@@ -39,6 +39,5 @@ To run the tests simply call:
 ```commandline
 uv run pytest tests
 ```
-
 Normally I wouldn't use the input data for the tests but here it is an exercise. 
 
