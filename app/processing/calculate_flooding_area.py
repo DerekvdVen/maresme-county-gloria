@@ -17,7 +17,7 @@ def calculate_flooding_area_km2(
 
     flooded_area_pixels = np.sum(flooding_mask)
 
-    pixel_area_km2 = (pixel_size_m**2) / 1_000_000  # Convert m² to km²
+    pixel_area_km2 = (pixel_size_m**2) / 1_000_000  # Convert m2 to km2
 
     total_area_km2 = flooded_area_pixels * pixel_area_km2
 
@@ -42,5 +42,4 @@ def map_flooding_area_to_geojson(before: Path, after: Path, threshold: float = 1
     ]
 
     geojson = {"type": "FeatureCollection", "features": geometries}
-
     return geojson
