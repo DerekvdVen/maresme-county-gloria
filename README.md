@@ -19,9 +19,9 @@ Open `analysis.ipynb` in your favorite IDE or checkout the presentation
 ```
 uv run uvicorn app.main:app
 ```
-See the tests for an example on how to use the api.
+Visit http://127.0.0.1:8000/docs for the FastAPI interface: 
 
-Visit for the FastAPI interface: http://127.0.0.1:8000/docs
+See the tests for an example on how to use the api.
 
 ### Tests
 
