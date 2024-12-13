@@ -27,6 +27,7 @@ def calculate_population_impact(
         population,
         all_touched=True,
         stats="count min mean max sum",
+        verbose=False,
     )
 
     return stats[0]["sum"]
